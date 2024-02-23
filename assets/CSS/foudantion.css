@@ -1,0 +1,313 @@
+@charset "UTF-8";
+:root {
+    /* colors */
+    --justblue: #5872C7;
+    --justgreen: #6CC559;
+    --darkblue: #1e2936;
+    --darkgray: #4c4c4c;
+    --gray: #b1b2b5;
+    --redice: #e8e9ea;
+} 
+
+
+
+body {
+    max-width: 100%;
+    gap: 0rem;
+    padding: 0rem;
+    margin: 0rem;
+    background-color: var(--redice);
+}
+
+/* typography */
+
+    h1 {
+        color: var(--darkblue);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 4.5rem;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    h2 {
+        color: var(--darkblue);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    h3 {
+        color: var(--darkblue);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    h4{
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    h5 {
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    h6 {
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .bodylight {
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    p {
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .bodymedium {
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .small {
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .caption {
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .link {
+        font-style: normal;
+        text-decoration: none;
+        margin: 0;
+    }
+
+    .link:hover {
+        color: var(--justblue);
+        margin: 0;
+    }
+
+    .nav-link {
+        color: var(--darkgray);
+        font-family: "Source Sans 3", sans-serif;
+        font-style: normal;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .nav-link:hover {
+        color: var(--juue)
+    }
+
+/* buttons */
+    .btn-primary {
+        border: 0px;
+        background: var(--primary);
+        padding: 0.5rem 2rem;
+    }
+    .btn-primary:hover {
+        background: var(--secondary);
+    }
+
+    .btn-secondary {
+        border: 0px;
+        background: var(--secondary);
+        padding: 0.5rem 2rem;
+    }
+
+    .btn-outline-primary {
+        padding: 0.5rem 2rem;
+        color: var(--primary);
+        font-weight: 600;
+    }
+
+    .btn-outline-primary:hover {
+        background: var(--primary);
+    }
+
+    .button-tertiary {
+        position: absolute;
+        width: auto;
+        height: auto;
+        border-radius: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        gap: 0px;
+        padding: 0.5rem 2rem;
+        flex-wrap: nowrap;
+        font-weight: 600;
+    }
+  
+
+    .btn-tertiary:hover {
+        background: var(--redice);
+    }
+
+/* forms */
+
+    .form-label {
+        color: var(--darkgray);
+    }
+
+
+    .form-check-label {
+        color: var(--darkgray);
+    }
+
+/* boxes */
+.box-normal {
+    position: relative;
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .box-big {
+    position: relative;
+    max-width: 40rem;
+    height: auto;
+    border-radius: 0.5rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+
+  /* logo */
+    .logo {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    padding: 0px;
+    flex-wrap: nowrap;
+  }
+
+    #logo-img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #logo-text {
+        color: var(--darkblue);
+    }
+
+@media screen and (max-width: 600px) {
+  .box-big{
+    width: 96vw;
+    padding: 2rem 1rem;
+  }
+
+  .box-normal {
+    width: 94vw;
+    padding: 1rem;
+    max-width: 30rem;
+  }
+}
+
+/* headbar / desktop */
+.headbar {
+    max-width: 100vw;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 0rem 3rem;
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+
+  /* heardbar links */
+.heardbar-links {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5rem;
+    padding: 0px;
+    flex-wrap: nowrap;
+  }
+
+  .heardbar-links:hover {
+    color: var(--justblue);
+  }
