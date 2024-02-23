@@ -79,6 +79,28 @@
         align-content: stretch;
       }
 
+      .color {
+        position: relative;
+        width: 5rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 0px;
+        padding: 0px;
+        flex-wrap: nowrap;
+      }
+      .box-color {
+        width: 5rem;
+        height: 5rem;
+        left: 0px;
+        top: 0px;
+        border-radius: 0.25rem;
+        box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+        margin: 0;
+      }
+
     </style>
 
 
@@ -130,6 +152,12 @@
             <h3>Colors</h3>
             <p>Color is another important element of the visual identity, and is key to quick and easy <br> brand recognition. Emphasis of the primary brand color is particularly important. <br>Colors should be taken from the brand palette wherever possible.</p>
           </div>
+          <div class="color">
+            <div class="box-color" style="background-color: #5872c7;"></div>
+            <p class="bodymedium">Just Blue</p>
+            <p style="margin-top: 0.5rem;">#5872c7</p>
+          </div>
+          <div class="box-color" style="background-color: white;"></div>
         </div>
 
         <div id="box">
